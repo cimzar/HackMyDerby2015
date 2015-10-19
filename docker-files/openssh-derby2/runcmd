@@ -1,0 +1,2 @@
+sudo docker run -d --name 'ssh-beta' -p 139.147.60.112:7022:22 -v /home/lagern/Projects/git/HackMyDerby/docker-files/openssh-derby2/derby:/derby -v /home/lagern/tmp/docker-openssh/:/var/openssh openssh-beta
+
